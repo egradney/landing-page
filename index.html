@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.min.css">
+        <link rel="shortcut icon" type="image/png" href="imgs/crown-01.jpg">
+        
+        <title>Queen of Foreclosure | Real Estate Investing</title>
+    </head>
+    <body>
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button"><span class="navigation__icon">&nbsp;</span></label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span class="navigation__number">01</span>About</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span class="navigation__number">02</span>Products</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span class="navigation__number">03</span>Live Events</a></li>
+                    <li class="navigation__item"><a href="#section-testimonials" class="navigation__link"><span class="navigation__number">04</span>Testimonials</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span class="navigation__number">05</span>VIP</a></li>
+                </ul>
+            </nav>
+        </div>
+        <header class="header">
+            <div class="header__logo-box">
+
+                <!-- density switching for responsive images
+                <img srcset="imgs/transparent-logo-small-bw-01.png 1x, imgs/logo-small-bw-01-01.png 2x" alt="logo" 
+                        class="header__logo" rc="imgs/transparent-logo-small-bw-01.png">  -->
+                
+                <!-- art-direction switching
+                <picture class="header__logo">
+                    <source srcset="imgs/transparent-logo-small-bw-01.png 1x, imgs/logo-small-bw-01-01.png 2x" 
+                            media="(max-width: 37.5em)">
+                    <img src="imgs/transparent-logo-small-bw-01.png" alt="logo" class="header__logo">
+                </picture> -->
+
+                <!--in chrome dev tools can click on 'add device pixel ratio' to see if srcset switching is working-->
+
+
+                <img src="imgs/transparent-logo-small-bw-01.png" alt="logo" class="header__logo">
+            </div>
+            <div class="header__text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary--main">Real Estate Investment Education</span>
+                    <span class="heading-primary--sub">with the Queen of Foreclosure</span>
+                </h1>
+                <a href="#section-products" class="btn btn--white btn--animated">Click to get started!</a>
+            </div>
+                
+        </header>
+        <main>
+            <section class="section-about">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        Take control of your financial future.
+                    </h2>
+                </div>
+                    <div class="row">
+                        <div class="col-1-of-2">
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                You're going to love your life.
+                            </h3>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero excepturi ut alias labore provident officia eos sapiente voluptas voluptatem nihil rerum, officiis, vel iste, autem saepe culpa itaque adipisci cupiditate?
+                            </p>
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                Call the shots.                            </h3>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero excepturi ut alias labore provident officia eos sapiente voluptas voluptatem nihil rerum, officiis, vel iste, autem saepe culpa itaque adipisci cupiditate?
+                            </p>
+                            <a href="#" class="btn-text">Learn more &rarr;</a>
+                        </div>
+                        <div class="col-1-of-2">
+                            <div class="composition">
+
+                                <!--resolution (and density) switching, informing browser of width and
+                                    sizes attribute to inform browser of approx img width at 
+                                    different viewport widths so it knows which to download 
+                                    (based on device pixel ratio it seems)
+
+                                    view what image size is at differentt viewport sizes and then divide imagesize by
+                                    viewport size to determine percentage of veiwport width 
+
+                                    <img srcset="img/img-1.jpg 300w, img/nat-1-LARGE.jpg 1000w"
+                                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 18.75em"
+                                            alt="photo 1"
+                                            class="composition__photo composition__photo--p1"
+                                            src="img/nat-1-LARGE.jpg">
+                                -->
+                                <img src="imgs/squad-3370836.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                                <img src="imgs/Break Into Real Estate Guidebook.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
+                                <img src="imgs/linda-purplefire.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="section-features">
+                <div class="row">
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Explore the WOlrd</h3>
+                            <p class="feature-box__text">
+                                Lorem facere reprehenderit molestias recusandae laborum magni!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-compass"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Explore the WOlrd</h3>
+                            <p class="feature-box__text">
+                                Lorem facere reprehenderit molestias recusandae laborum magni!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-map"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Explore the WOlrd</h3>
+                            <p class="feature-box__text">
+                                Lorem facere reprehenderit molestias recusandae laborum magni!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-heart"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Explore the World</h3>
+                            <p class="feature-box__text">
+                                Lorem facere reprehenderit molestias recusandae laborum magni!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-products" id="section-products">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        3 Ways to Get Started
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--1">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--1">
+                                        Break Into Real Estate Guidebook
+                                    </span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Launch your career</li>
+                                        <li>How to Find</li>
+                                        <li>How to Fund</li>
+                                        <li>How to Fix</li>
+                                        <li>How to Finish</li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            <div class="card__side card__side--back card__side--back-1">
+                               <div class="card__cta">
+                                    <div class="card__price-box">
+                                    <p class="card__price-only">
+                                        Only
+                                    </p>
+                                    <p class="card__price-value">$0</p>
+                                    </div>
+                                    <a href="#pop-up" class="btn btn--white">Download Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--2">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--2">
+                                        VIP Firepower Smart Bundle 
+                                    </span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Entire Course Series</li>
+                                        <li>Special Discounts</li>
+                                        <li>VIP Breakfast</li>
+                                        <li>1-year membership</li>
+                                        <li>Exclusive Content</li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            <div class="card__side card__side--back card__side--back-2">
+                               <div class="card__cta">
+                                    <div class="card__price-box">
+                                    <p class="card__price-only">
+                                        Only
+                                    </p>
+                                    <p class="card__price-value">$391</p>
+                                    </div>
+                                    <a href="#pop-up" class="btn btn--white">Sign Up Now!</a>
+                                </div>
+                            </div>
+                        </div>                   
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--3">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--3">
+                                        Joint Venture Partnership
+                                    </span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Tailored Education</li>
+                                        <li>One-On-One Assistance</li>
+                                        <li>Direct Expert Access</li>
+                                        <li>Hands-On Tarining</li>
+                                        <li>Deal Sharing</li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            <div class="card__side card__side--back card__side--back-3">
+                               <div class="card__cta">
+                                    <div class="card__price-box">
+                                    <p class="card__price-only">
+                                        Only
+                                    </p>
+                                    <p class="card__price-value">$9997</p>
+                                    </div>
+                                    <a href="#pop-up" class="btn btn--white">Apply Now!</a>
+                                </div>
+                            </div>
+                        </div>                   
+                    </div>
+                </div> 
+                <div class="u-center-text u-margin-top-huge">
+                    <a href="#" class="btn btn--primary-color">
+                        Discover more products
+                    </a>
+                </div>
+            </section>
+
+            <section class="section-testimonials" id="section-testimonials">
+                <div class="background-video">
+                    <video class="background-video__content" autoplay muted loop>
+                        <source src="imgs/Houston Skyscrapers.mp4" type="video/mp4">
+                        Your browser is not supported!
+                    </video>
+                </div>
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        We help people transform their lives.
+                    </h2>
+                </div>
+
+                <div class="row">
+                    <div class="testimonial">
+                        <figure class="testimonial__shape">
+                            <img src="imgs/dario-valenzuela-PAGBeJrLiDA-unsplash.jpg" class="testimonial__image"/>
+                            <figcaption class="testimonial__caption">Ali A.</figcaption>
+                        </figure>
+
+                        <div class="testimonial__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                Now, I can spend quality time with my family.
+                            </h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. A amet animi et iste minima obcaecati qui aperiam distinctio natus ipsam. Laboriosam est voluptates, modi minus quod nostrum. Officia, incidunt. Doloribus.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. A amet animi et iste minima obcaecati qui aperiam distinctio natus ipsam. Laboriosam est voluptates, modi minus quod nostrum. Officia, incidunt. Doloribus.
+                            </p>
+                        </div>  
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="testimonial">
+                        <figure class="testimonial__shape">
+                            <img src="imgs/edward-cisneros-_H6wpor9mjs-unsplash.jpg" class="testimonial__image"/>
+                            <figcaption class="testimonial__caption">Angie M.</figcaption>
+                        </figure>
+
+                        <div class="testimonial__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                I was able to retire early.
+                            </h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. A amet animi et iste minima obcaecati qui aperiam distinctio natus ipsam. Laboriosam est voluptates, modi minus quod nostrum. Officia, incidunt. Doloribus.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. A amet animi et iste minima obcaecati qui aperiam distinctio natus ipsam. Laboriosam est voluptates, modi minus quod nostrum. Officia, incidunt. Doloribus.
+                            </p>
+                        </div>  
+                    </div>
+                </div>
+                <div class="u-center-text u-margin-top-huge">
+                    <a href="#" class="btn-text">Discover more testimonials &rarr;</a>
+                </div>
+            </section>
+            <section class="section-book">
+                <div class="row">
+                    <div class="book">
+                        <div class="book__form">
+                            <form action="#" class="form">
+                                <div class="u-margin-bottom-medium">
+                                    <h2 class="heading-secondary">
+                                        Sign-up for our Newsletter
+                                    </h2>
+                                </div>
+                                <div class="form__group">
+                                    <input type="text" class="form__input" placeholder="Full Name" id="name" required>
+                                    <label for="name" class="form__label">Full name</label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="email" class="form__input" placeholder="E-mail address" id="email" required>
+                                    <label for="email" class="form__label">E-mail address</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <div class="form__radio-group">
+                                        <input type="radio" name="size" class="form__radio-input" id="small">
+                                        <label for="small" class="form__radio-label">Small Tour Group
+                                            <span class="form__radio-button"></span>
+                                        </label>
+                                    </div>
+                                    <div class="form__radio-group">
+                                        <input type="radio"  name="size" class="form__radio-input" id="large">
+                                        <label for="large" class="form__radio-label">Large Tour Group
+                                            <span class="form__radio-button"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form__group">
+                                    <button class="btn btn--primary-color">Next step &rarr;</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__logo-box">
+                <img src="./imgs/transparent-logo-small-bw-01.png" alt="" class="footer__logo">
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Privacy</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__copyright">
+                        Built by <a href="https://www.github.com/egradney" class="footer__link">Elli Gradney</a>.  Based on a design by &copy; <a href="https://codingeheroes.io" class="footer__link">Jonas Schmedtmann</a>.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <div class="pop-up" id="pop-up">
+            <div class="pop-up__content">
+                <div class="pop-up__image-box">
+                    <img src="/imgs/precondo-ca-QHDFm084RNk-unsplash.jpg" alt="smiling man" class="pop-up__image pop-up__image--1">
+                    <img src="/imgs/freedom-1886402_1920.jpg" alt="breaking handcuffs freedom" class="pop-up__image pop-up__image--2">
+                </div>
+                <div class="pop-up__text-box">
+                    <a href="#section-products" class="pop-up__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Become a VIP</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Please Read These Instructions Before You Apply</h3>
+                    <p class="pop-up__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum 
+                        excepturi velit quae repellendus dicta quibusdam, cumque provident officiis obcaecati! Nobis 
+                        voluptates officia repellat quas consequatur esse doloribus, hic iusto.
+                    </p>
+                    <a href="#" class="btn btn--primary-color">Start application</a>
+                </div>
+            </div>
+        </div>
+        <!--
+        <section class="grid-test">
+            <div class="row">
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-2-of-3">
+                    Col 2 of 3
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-2-of-4">
+                    Col 2 of 4
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-3-of-4">
+                    Col 3 of 4
+                </div>
+            </div>
+        </section>
+        -->
+    </body>
+</html>
